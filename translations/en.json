@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Hide ticket assignee",
+    "short_description": "Hide assignee field on ticket when 'hide_assignee' tag exists on user. Also hides the assignee field if the current user's role is light agent.",
+    "long_description": "Hide assignee field on ticket when 'hide_assignee' tag exists on user. Also hides the assignee field if the current user's role is light agent.",
+    "installation_instructions": "* Click Install. \n* Add 'hide_assignee' tag to users who don't need access to Sharing field."
+  }
+}
