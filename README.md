@@ -26,7 +26,9 @@ Follow these steps to get a local copy up and running.
     zcli apps:server
     ```
 
-3. Either test by logging in as a light agent or add the user tag "hide_assignee" to your profile.
+3. Open a ticket in your Zendesk instance and append `?zcli_apps=true` to test your app locally.
+
+4. Either test by logging in as a light agent or add the user tag "hide_assignee" to your profile.
 
 Note: you do need to refresh your apps for the changes to take affect. Additionally, if you remove the tag, refreshing the apps will cause the ticket assignee to be seen again.
 
